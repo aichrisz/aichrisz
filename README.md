@@ -1,16 +1,31 @@
-## Hi there 👋
+# Front desk by shift, frontend after shift.
 
-<!--
-**aichrisz/aichrisz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```ts
+const abel = {
+  dayJob: "hotel trainee in Rostock",
+  nightJob: "building small projects",
+  stack: ["TypeScript", "JavaScript"],
+  quest: "build something people actually use",
+};
+```
 
-Here are some ideas to get you started:
+### Check-in
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Welcome to my lobby. I'm Abel. I run a hotel front desk by day and build small projects by night. The problems change, the approach doesn't: listen first, then fix it.
+
+### Rooms
+
+Each room is a tiny game or experiment I built between shifts. Pick a door, any door.
+
+- **101 · [project-board](https://github.com/aichrisz/project-board):** a command center for all my side projects
+- **102 · [lobby-ledger](https://github.com/aichrisz/lobby-ledger):** shift handover notes, digitized (Früh, Spät, Nacht approved)
+- **103 · [portfolio-hub](https://github.com/aichrisz/portfolio-hub):** the front door of this hotel
+- **104 · [hotel-lobby-chaos-simulator](https://github.com/aichrisz/hotel-lobby-chaos-simulator):** my workplace, but playable
+- **105 · [queue-quest](https://github.com/aichrisz/queue-quest):** adventures sized for waiting lines
+- **106 · [blank-zero](https://github.com/aichrisz/blank-zero):** every match becomes unique artwork
+
+### Checkout
+
+No checkout time here. The desk is always open:
+
+🌍 [aichrisz.com](https://aichrisz.com) · 📍 Rostock, Germany
