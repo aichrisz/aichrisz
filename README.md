@@ -23,7 +23,7 @@ Each room is a tiny game or experiment I built between shifts. Pick a door, any 
 - **102 · [lobby-ledger](https://github.com/aichrisz/lobby-ledger):** shift handover notes, digitized (Früh, Spät, Nacht approved)
 - **103 · [portfolio-hub](https://github.com/aichrisz/portfolio-hub):** the front door of this hotel
 - **104 · [hotel-lobby-chaos-simulator](https://github.com/aichrisz/hotel-lobby-chaos-simulator):** my workplace, but playable
-- **105 · [queue-quest](https://github.com/aichrisz/queue-quest):** adventures sized for waiting lines
+- **105 · [captcha-hell](https://github.com/aichrisz/captcha-hell):** where proving you are human turns into existential horror
 - **106 · [blank-zero](https://github.com/aichrisz/blank-zero):** every match becomes unique artwork
 - **404 ·** room not found (yet)
 
