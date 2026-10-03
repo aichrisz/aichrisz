@@ -1,7 +1,7 @@
 # Front desk by shift, frontend after shift.
 
 ```ts
-const abel = {
+const me = {
   dayJob: "hotel trainee in Rostock",
   nightJob: "building small projects",
   stack: ["TypeScript", "JavaScript"],
