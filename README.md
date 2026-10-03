@@ -9,10 +9,10 @@ const me = {
   languages: ["id", "de", "en"],
   dayJob: "hotel trainee in Rostock",
   nightJob: "building small projects",
+  shift: ["Früh", "Spät", "Nacht"],
   stack: ["TypeScript", "JavaScript", "Python"],
   learning: "machine learning",
   quest: "build something people actually use",
-  status: "checked in",
 };
 ```
 
