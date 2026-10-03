@@ -4,17 +4,21 @@
 
 ```ts
 const me = {
+  name: "Abel Immanuela Kristianto",
+  username: "aichrisz",
+  languages: ["id", "de", "en"],
   dayJob: "hotel trainee in Rostock",
   nightJob: "building small projects",
   stack: ["TypeScript", "JavaScript", "Python"],
   learning: "machine learning",
   quest: "build something people actually use",
+  status: "checked in",
 };
 ```
 
 ### Check-in
 
-Welcome to my lobby. I'm Abel. I run a hotel front desk by day and build small projects by night. The problems change, the approach doesn't: listen first, then fix it.
+Welcome to my lobby. Willkommen. Selamat datang. I'm Abel. I run a hotel front desk by day and build small projects by night. The problems change, the approach doesn't: listen first, then fix it.
 
 ### Rooms
 
@@ -26,6 +30,7 @@ Each room is a tiny game or experiment I built between shifts. Pick a door, any 
 - **104 · [hotel-lobby-chaos-simulator](https://github.com/aichrisz/hotel-lobby-chaos-simulator):** my workplace, but playable
 - **105 · [queue-quest](https://github.com/aichrisz/queue-quest):** adventures sized for waiting lines
 - **106 · [blank-zero](https://github.com/aichrisz/blank-zero):** every match becomes unique artwork
+- **404 ·** room not found (yet)
 
 ### Checkout
 
