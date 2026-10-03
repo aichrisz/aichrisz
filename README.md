@@ -1,3 +1,5 @@
+![Hotel lobby at night, pixel art](lobby-banner.png)
+
 # Front desk by shift, frontend after shift.
 
 ```ts
@@ -30,3 +32,7 @@ Each room is a tiny game or experiment I built between shifts. Pick a door, any 
 No checkout time here. The desk is always open:
 
 🌍 [aichrisz.com](https://aichrisz.com) · 📍 Rostock, Germany
+
+### Guest book
+
+Enjoyed your stay? Sign the guest book and tell me where you're visiting from: [leave a note](https://github.com/aichrisz/aichrisz/issues/new)
