@@ -4,7 +4,8 @@
 const me = {
   dayJob: "hotel trainee in Rostock",
   nightJob: "building small projects",
-  stack: ["TypeScript", "JavaScript"],
+  stack: ["TypeScript", "JavaScript", "Python"],
+  learning: "machine learning",
   quest: "build something people actually use",
 };
 ```
