@@ -1,0 +1,21 @@
+name: ProfileForge
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: LobsterEnigma/ProfileForge@v1
+        with:
+          branch: profileforge
+          care: true
+          outputs: |
+            profileforge/pet.svg?name=Moin&species=turtle&theme=dark
