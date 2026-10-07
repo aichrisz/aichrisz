@@ -21,7 +21,7 @@ Meet **Moin**, the lobby turtle. He runs on commits: busy weeks keep him happy, 
 
 ![Moin the lobby turtle](https://raw.githubusercontent.com/aichrisz/aichrisz/profileforge/profileforge/pet.svg)
 
-Psst, guests can feed, bathe and play with him over at his house.
+Psst, guests can feed, bathe and play with him over at [his house](https://github.com/aichrisz/aichrisz/issues/1).
 
 ### Rooms
 
