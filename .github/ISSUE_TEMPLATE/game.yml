@@ -1,0 +1,23 @@
+name: "🎮 Play: Find Moin's Key"
+description: "Night audit game: guess which room (101-106) hides Moin's spare key today. One guess per day!"
+title: "🎮 Find Moin's key"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Every day, Moin hides his spare key in one of the rooms **101–106**.
+        Pick a room below. Correct guess = **1 point**. Wrong guess = a hot/cold hint.
+        One guess per day, the night audit never sleeps.
+  - type: dropdown
+    id: guess
+    attributes:
+      label: Which room hides the key?
+      options:
+        - "101"
+        - "102"
+        - "103"
+        - "104"
+        - "105"
+        - "106"
+    validations:
+      required: true
