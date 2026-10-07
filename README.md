@@ -1,4 +1,4 @@
-![Neon hotel sign: HOTEL aichrisz, vacancy](neon-sign.svg)
+![Pixel-art hotel lobby at night, Moin the turtle asleep on key cards by the fireplace](lobby-banner.gif)
 
 # Front desk by shift, frontend after shift.
 
