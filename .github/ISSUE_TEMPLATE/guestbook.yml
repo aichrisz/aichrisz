@@ -1,0 +1,26 @@
+name: Sign the guest book
+description: Leave a note in the lobby guest book
+title: "Guest book: "
+labels: ["guestbook"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: What should the lobby call you?
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Where are you visiting from?
+      placeholder: e.g. Rostock, Jakarta, the internet
+    validations:
+      required: false
+  - type: textarea
+    id: message
+    attributes:
+      label: Message
+      placeholder: Say hi, leave a doodle in words...
+    validations:
+      required: true
