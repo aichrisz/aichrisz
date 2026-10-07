@@ -1,0 +1,60 @@
+name: rotate-status
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: set status
+        env:
+          STATUS_TOKEN: ${{ secrets.STATUS_TOKEN }}
+          STATUS_EXPIRY_MIN: "185"
+          STATUS_BUSY: "false"
+        run: |
+          if [ -z "$STATUS_TOKEN" ]; then
+            echo "STATUS_TOKEN secret not set, skipping. Add a classic PAT with the 'user' scope as STATUS_TOKEN to enable rotation."
+            exit 0
+          fi
+          python scripts/set_status.py
+
+  keepalive:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      THRESHOLD_DAYS: "40"
+    steps:
+      - name: keepalive commit if repo nearing inactivity
+        run: |
+          set -euo pipefail
+          repo='${{ github.repository }}'
+          if [ '${{ github.event_name }}' = 'schedule' ] && [ "$(date -u +%H)" != "03" ]; then
+            echo "Not the daily check hour; skipping."; exit 0
+          fi
+          branch="$(gh api "repos/$repo" --jq .default_branch)"
+          sha="$(gh api "repos/$repo/commits/$branch" --jq .sha)"
+          when="$(gh api "repos/$repo/commits/$branch" --jq .commit.committer.date)"
+          days=$(( ( $(date -u +%s) - $(date -u -d "$when" +%s) ) / 86400 ))
+          echo "Last commit $sha at $when, ${days}d ago (threshold ${THRESHOLD_DAYS}d)."
+          if [ "$days" -lt "${THRESHOLD_DAYS}" ]; then
+            echo "Repo is active enough; no keepalive needed."; exit 0
+          fi
+          tree="$(gh api "repos/$repo/commits/$branch" --jq .commit.tree.sha)"
+          new="$(gh api -X POST "repos/$repo/git/commits" \
+            -f message='chore: keepalive (reset 60-day scheduled-workflow inactivity timer)' \
+            -f tree="$tree" -f 'parents[]='"$sha" --jq .sha)"
+          gh api -X PATCH "repos/$repo/git/refs/heads/$branch" -f sha="$new" >/dev/null
+          echo "Created keepalive commit $new on $branch."
