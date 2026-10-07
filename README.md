@@ -35,6 +35,20 @@ Each room is a tiny game or experiment I built between shifts. Pick a door, any 
 - **106 · [blank-zero](https://github.com/aichrisz/blank-zero):** every match becomes unique artwork
 - **404 ·** room not found (yet)
 
+### Lobby game: find Moin's key
+
+Every day, Moin hides his spare key in one of the rooms 101-106. Guess the room by [opening a play issue](https://github.com/aichrisz/aichrisz/issues/new?template=game.yml). One guess per day, a correct guess is 1 point, a wrong guess gets you a hot/cold hint.
+
+<!-- GAME:START -->
+_No one has found the key yet. Be the first!_
+<!-- GAME:END -->
+
+### The hotel at night
+
+Every lit window is a day with commits. Dark windows are rest days, and rest days are part of the job.
+
+![My contributions as a hotel at night](hotel-windows.svg?v=20261007)
+
 ### Checkout
 
 No checkout time here. The desk is always open:
