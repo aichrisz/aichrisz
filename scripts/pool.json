@@ -1,10 +1,50 @@
 [
-  {"emoji": ":wave:", "message": "Moin!"},
-  {"emoji": ":hotel:", "message": "On shift at the front desk"},
-  {"emoji": ":moon:", "message": "Night audit in progress"},
-  {"emoji": ":coffee:", "message": "Lobby break, back soon"},
-  {"emoji": ":night_with_stars:", "message": "Building after shift"},
-  {"emoji": ":turtle:", "message": "Feeding Moin the turtle"},
-  {"emoji": ":sunrise:", "message": "Fruhschicht survivor"},
-  {"emoji": ":sparkles:", "message": "Rooms 101-106 are open"}
+  {
+    "emoji": ":wave:",
+    "message": "Moin!"
+  },
+  {
+    "emoji": ":hotel:",
+    "message": "On shift at the front desk"
+  },
+  {
+    "emoji": ":moon:",
+    "message": "Night audit in progress"
+  },
+  {
+    "emoji": ":coffee:",
+    "message": "Lobby break, back soon"
+  },
+  {
+    "emoji": ":night_with_stars:",
+    "message": "Building after shift"
+  },
+  {
+    "emoji": ":turtle:",
+    "message": "Feeding Moin the turtle"
+  },
+  {
+    "emoji": ":sunrise:",
+    "message": "Fruhschicht survivor"
+  },
+  {
+    "emoji": ":sparkles:",
+    "message": "Rooms 101-106 are open"
+  },
+  {
+    "emoji": ":bell:",
+    "message": "Ring for service"
+  },
+  {
+    "emoji": ":ocean:",
+    "message": "Greetings from the Baltic Sea"
+  },
+  {
+    "emoji": ":zzz:",
+    "message": "Powered by lobby coffee"
+  },
+  {
+    "emoji": ":dart:",
+    "message": "Building something people actually use"
+  }
 ]
