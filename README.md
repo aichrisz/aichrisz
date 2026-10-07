@@ -20,7 +20,7 @@ Welcome to my lobby. Willkommen. Selamat datang. I'm Abel. I run a hotel front d
 Each room is a tiny game or experiment I built between shifts. Pick a door, any door.
 
 - **101 · [project-board](https://github.com/aichrisz/project-board):** a command center for all my side projects
-- **102 · [lobby-ledger](https://github.com/aichrisz/lobby-ledger):** shift handover notes, digitized (Früh, Spät, Nacht approved)
+- **102 · [shift-cockpit](https://github.com/aichrisz/shift-cockpit):** phone-first shift handover checklist, in DE, EN and ID
 - **103 · [one-button-universe](https://github.com/aichrisz/one-button-universe):** a one-button cosmic sandbox, from dust to black holes
 - **104 · [hotel-lobby-chaos-simulator](https://github.com/aichrisz/hotel-lobby-chaos-simulator):** my workplace, but playable
 - **105 · [captcha-hell](https://github.com/aichrisz/captcha-hell):** where proving you are human turns into existential horror
