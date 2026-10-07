@@ -1,4 +1,4 @@
-![Hotel lobby at night, pixel art](lobby-banner.png)
+![Neon hotel sign: HOTEL aichrisz, vacancy](neon-sign.svg)
 
 # Front desk by shift, frontend after shift.
 
@@ -14,6 +14,14 @@ const me = {
 ### Check-in
 
 Welcome to my lobby. Willkommen. Selamat datang. I'm Abel. I run a hotel front desk by day and build small projects by night. The problems change, the approach doesn't: listen first, then fix it.
+
+### Lobby mascot
+
+Meet **Moin**, the lobby turtle. He runs on commits: busy weeks keep him happy, quiet weeks make him hungry, long silence tucks him in for a nap.
+
+![Moin the lobby turtle](https://raw.githubusercontent.com/aichrisz/aichrisz/profileforge/profileforge/pet.svg)
+
+Psst, guests can feed, bathe and play with him over at his house.
 
 ### Rooms
 
@@ -35,4 +43,10 @@ No checkout time here. The desk is always open:
 
 ### Guest book
 
-Enjoyed your stay? Sign the guest book and tell me where you're visiting from: [leave a note](https://github.com/aichrisz/aichrisz/issues/new)
+Enjoyed your stay? [Sign the guest book](https://github.com/aichrisz/aichrisz/issues/new?template=guestbook.yml) and tell me where you're visiting from.
+
+<!-- GUESTBOOK:START -->
+<!-- The first signature appears here once a guest signs. -->
+<!-- GUESTBOOK:END -->
+
+![lobby guests](https://komarev.com/ghpvc/?username=aichrisz&label=lobby+guests&color=0e75b6&style=flat)
