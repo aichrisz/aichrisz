@@ -1,0 +1,43 @@
+name: lobby-game
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  play:
+    if: startsWith(github.event.issue.title, '🎮')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Play the round
+        run: python scripts/game.py
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+
+      - name: Reply and close the issue
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --body-file comment.md
+          gh issue close "$ISSUE_NUMBER" --reason completed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+
+      - name: Commit leaderboard
+        run: |
+          git config user.name "lobby-bot"
+          git config user.email "lobby-bot@users.noreply.github.com"
+          git pull --rebase origin main || true
+          git add game/leaderboard.json README.md
+          git diff --quiet --cached || git commit -m "🎮 night audit: update leaderboard" && git push
