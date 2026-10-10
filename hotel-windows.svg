@@ -371,6 +371,6 @@
 <rect x="646" y="70" width="9" height="9" rx="2" fill="#f2c14e"/>
 <rect x="646" y="82" width="9" height="9" rx="2" fill="#7d5f31"/>
 <rect x="646" y="94" width="9" height="9" rx="2" fill="#7d5f31"/>
-<rect x="646" y="106" width="9" height="9" rx="2" fill="#1b2440"/>
+<rect x="646" y="106" width="9" height="9" rx="2" fill="#7d5f31"/>
 <text x="338.5" y="153" text-anchor="middle" font-size="10" fill="#8b93a7">? contributions in the last year · lit windows = days with commits</text>
 </svg>
