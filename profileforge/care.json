@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "since": "2026-10-07T02:32:28.820Z",
+  "last": {
+    "feed": "2026-10-07T22:52:30.136Z",
+    "bath": "2026-10-10T12:06:07.733Z",
+    "play": "2026-10-10T21:18:59.419Z"
+  },
+  "day": "2026-10-11",
+  "today": {},
+  "todayTotal": 0,
+  "totals": {
+    "feed": 1,
+    "bath": 1,
+    "play": 1
+  },
+  "recent": [
+    {
+      "action": "play",
+      "by": "aichrisz",
+      "at": "2026-10-10T21:18:59.419Z"
+    },
+    {
+      "action": "bath",
+      "by": "aichrisz",
+      "at": "2026-10-10T12:06:07.733Z"
+    },
+    {
+      "action": "feed",
+      "by": "aichrisz",
+      "at": "2026-10-07T22:52:30.136Z"
+    }
+  ],
+  "house": {
+    "issue": 1,
+    "cursor": 6100420160,
+    "cursorAt": "2026-10-10T17:47:16.000Z"
+  }
+}
